@@ -6,3 +6,17 @@ page.page__grid {
      width: 1200px;
      margin: 0 auto;
 }
+@media (min-width: 740px) and (max-width: 1023px)
+{
+     page.page__grid { 
+          width: 600px;
+     }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px)
+{ 
+     page.page__grid {
+         width: 900px;
+}
+
+}
