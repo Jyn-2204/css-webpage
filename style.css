@@ -1,3 +1,21 @@
+:root {
+  --primary: #23e37f;
+  --light: #ffffff;
+  --dark: #000000;
+  --gray-white: #efc123;
+}
+
 html {
   height: 100%;
+}
+
+body {
+  margin: 0;
+  box-sizing: boder-box;
+  background-color: var(--gray-white);
+}
+
+.header {
+  height: 60px;
+  background-color: var(--primary);
 }
