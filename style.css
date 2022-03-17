@@ -16,6 +16,15 @@ body {
   background-color: var(--gray-white);
 }
 
+h1 {
+  color: var(--light);
+  margin: 0;
+}
+a {
+  color: var(--light);
+  text-decoration: none;
+}
+
 .header {
   height: 60px;
   background-color: var(--primary);
